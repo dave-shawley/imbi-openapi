@@ -94,6 +94,9 @@ write:
       type: string
       format: iso8601-timestamp
       nullable: true
+    recorded_by:
+      description: Optiional name of the user who recorded the change, defaults to the authenticated user
+      type: string
     project_id:
       description: The ID of the project that was changed
       type: number
